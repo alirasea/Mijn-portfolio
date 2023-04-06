@@ -1,0 +1,398 @@
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:black;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 3%;
+    position: fixed;
+    font-size: larger;
+}
+
+h1 {
+    display: run-in;     
+    padding-top: 40px;
+}
+.link:hover {
+    color: rgb(7, 1, 1);
+    background-color: white;
+    padding: 9px;
+    
+}
+
+.link {
+text-decoration: none;
+justify-content: space-between ;
+font-size: 100%;
+color: aliceblue;
+position: fixed;
+}
+
+
+.head {
+    color:aliceblue;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 200%;
+    font-style:oblique;
+}
+
+.img{
+text-align: center;
+width: 100%;
+
+}
+.img:hover{
+    opacity: 1;
+}
+
+#img {
+    animation: 1s ease-in-out 0s 1 img;
+}
+
+@keyframes img{ 
+    100% 
+    {
+        transform: translateX(0);
+        
+    }
+    0% {
+        transform: translateX(150%);
+}
+}
+
+
+.about {
+    color:aliceblue;
+    text-align: center;
+    margin-top: 10%;
+    padding: 0;
+    font-size: 80px;
+    
+}
+
+.me {
+    font-size: 20px;
+    margin-top: 1px;
+    padding: 0;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-decoration: none;
+}
+.me:hover{
+    color:black;
+    background-color:white;
+    transform: translateY(-10%);
+}
+
+* {box-sizing: border-box}
+
+.skill{
+font-size: 30px;
+}
+
+.container {
+margin-left: 25%;
+width: 50%;
+background-color: #ddd;
+}
+
+.skills {
+text-align: center;
+padding-top: 1px;
+padding-bottom: 1px;
+color: white;
+font-size: 20px;
+}
+
+.html {width: 90%; background-color: #ed1c0d;}
+.css {width: 80%; background-color: #ed1c0d;}
+.js {width: 70%; background-color: #ed1c0d;}
+.php {width: 65%; background-color: #ed1c0d;}
+
+i {
+    margin-left: 1%;
+}
+p{
+    font-size: 40px;
+}
+
+#container{
+    display:flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: center;
+    justify-content: center;
+}
+
+#container{
+
+        animation: 1s ease-in-out 0s 1 img;
+    }
+    
+    @keyframes img{ 
+        100% 
+        {
+            transform: translateX(0);
+            
+        }
+        0% {
+            transform: translateX(150%);
+    }
+    }
+
+#container div img{
+    background-color: aquamarine;
+    align-items: center;
+    margin: 5px;
+    width:300px;
+    height:300px;
+}
+#container2:hover{
+    opacity: 0.3;
+}
+
+
+.contact {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+#contact{
+    font-size: 50px;
+}
+
+.cont{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 5px;  
+}
+
+.inp {
+    background-color: aliceblue;
+    text-align: center;
+    color:black;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.inp:hover{ 
+    color:rgb(0, 0, 14);
+    background-color: blanchedalmond;
+    transform:matrix();
+}
+.subm{
+    background-color: aliceblue;
+    text-align: center;
+    color:black;
+    padding: 1%;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.subm:hover{ 
+    color:rgb(0, 0, 14);
+    background-color: blanchedalmond;
+    transform:matrix();
+}
+
+textarea{
+    width: 30%;
+margin-left: 35%;
+margin-right: 35%;
+text-align: center; 
+padding-top:20px ;
+border-radius: 20px;
+resize: none;
+margin-top: 10px;
+}
+
+.textarea:hover{ 
+    color:rgb(0, 0, 14);
+    background-color: blanchedalmond;
+    transform:matrix();
+}
+
+.icon{
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.icon:hover{
+    color:rgb(0, 0, 14);
+    transform:matrix();
+}
+
+.print{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat,minmax(500px,1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+
+.comment {
+    color:rgb(223, 13, 13);
+    background-color: #ddd;
+    border:6px solid black;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-basis: 30%;;
+    width: 300px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+    #head {
+    animation: animateName 3s linear infinite;
+    }
+
+@keyframes animateName {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+
+
+.scroll h1{
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+
+.scroll h1:nth-child(2) {
+    animation-delay: 1s;
+}
+
+
+.scroll h1:nth-child(3) {
+    animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+
+.head{
+    font-size: 100%;
+}
+.img{
+margin-left: 20%;
+width: 120%;
+
+}
+.link{
+    font-size: 60%;
+}
+.about{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50%;
+}
+
+.me {
+    font-size: 15px;
+    margin-top: 1px;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 15%;
+    width: 100%;
+    background-color: #ddd;
+    font-size: 20px;
+    }
+
+    .skill p{
+        font-size: 15px;
+    }
+
+    #container div img{
+        background-color: aquamarine;
+        align-items: center;
+        margin: 5px;
+        width: 150px;
+        height:150px;
+    }
+    #container {
+        margin-left: 250px;
+    }
+    #contact {
+        font-size: 30px;
+        margin-left: 130px;
+    }
+    .cont{
+        font-size: 15px;
+        margin-top: 5px;
+        padding: 5px; 
+        margin-left: 130px; 
+    }
+
+    .inp {
+        background-color: aliceblue;
+        text-align: center;
+        color:black;
+        width: 40%;
+        margin-left: 50%;
+        margin-right: 10%;
+        padding: 1%;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    
+    textarea{
+        width: 40%;
+    margin-left: 50%;
+    margin-right: 10%;
+    text-align: center; 
+    padding-top:20px ;
+    border-radius: 20px;
+    resize: none;
+    margin-top: 10px;
+    }
+
+    .subm{
+        margin-left: 58%;
+    margin-right: 40%;
+    }
+
+    .icon{
+        margin-left: 35%;
+        margin-right: 5%;
+    }
+}

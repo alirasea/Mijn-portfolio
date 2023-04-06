@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(168, 207, 243);
+}
+
+.link {
+    text-decoration: none;
+    justify-content: space-between ;
+    font-size: 40px;
+    color: aliceblue;
+    position: fixed;
+    }
+    .tabl{
+        background-color: rgb(12, 156, 7);
+    
+    margin-left:1%;
+    margin-right: 1%;
+    
+    }
+    .foto{
+        border-radius: 40%;
+    }
+    .text{
+        margin-top: 0;
+        padding-left: 250px;
+        padding-bottom: 0;
+        color:aliceblue ;
+    
+    }
+
+#wrapper {
+    margin-left: 1%;
+    margin-right: 1%;
+    height:100%;
+    display:flex;
+    border: none;
+}
+#first {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(9, 10, 10);
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+#container {
+    margin-left: 25%;
+    width: 50%;
+    background-color: #ddd;
+    }
+.skills {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    font-size: 20px;
+    }
+    
+    .html {width: 90%; background-color: #ed1c0d;}
+.css {width: 80%; background-color: #ed1c0d;}
+.js {width: 70%; background-color: #ed1c0d;}
+.php {width: 65%; background-color: #ed1c0d;}
+
+
+    .ned {width: 50%; background-color: #ed1c0d;}
+.eng {width: 50%; background-color: #ed1c0d;}
+.chi {width: 39%; background-color: #ed1c0d;}
+.ara {width: 100%; background-color: #ed1c0d;}
+
+#second {
+    width: 60%;
+    background-color: rgb(211, 221, 225);
+    border:none;
+}
+
+#opleiding{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#werk{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.down{
+    color: #ddd;
+    background-color: rgb(16, 71, 251);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+   float: right;
+   margin-top: 250px;
+}
+.home{
+   font-size:60px;
+   padding:none;
+   float:left;
+   margin-top: 255px;
+   color: blue;
+}
+.down:hover{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    .tabl{
+        background-color: rgb(12, 156, 7);
+    width:720px;
+    }
+    .text{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-bottom: 0;
+        color:aliceblue ;
+    }
+    #wrapper {
+        margin-left: 1%;
+        margin-right: 1%;
+        width:830px;
+        height:100%;
+        display:flex;
+        border: none;
+    }
+    #first {
+        width: 220px;
+        height:1300px;
+        background-color: rgb(9, 10, 10);
+        color: aliceblue;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+    }
+    #second {
+        width: 500px;
+        background-color:rgb(211, 221, 225);
+        border:none;
+    }
+
+   
+
+.down{
+    color: #ddd;
+    background-color: rgb(16, 71, 251);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    width:100px;
+    margin-top: 150px;
+
+}
+.home{
+    font-size:40px;
+    padding:none;
+    float:left;
+    margin-top: 155px;
+    color: blue;
+ }
+
+
+}
